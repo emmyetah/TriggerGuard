@@ -1,0 +1,7 @@
+# Problem Statement
+
+Windows Task Scheduler is a legitimate automation feature that allows users, applications, and system services to execute programs, scripts, and commands at specific times or in response to system events. While this functionality is useful for routine maintenance, software updates, and administrative tasks, it can also be abused by malware and attackers to establish persistence, execute malicious commands, evade detection, or maintain access to a compromised system.
+
+Although Windows provides built-in tools for viewing and managing scheduled tasks, these tools are not designed to automatically assess the security risk of each task. Users must manually inspect task names, executable paths, triggers, actions, command-line arguments, privileges, and hidden settings, which can be time-consuming and difficult for non-specialist users. Malicious scheduled tasks may also use misleading names, trusted-looking paths, encoded commands, suspicious scripts, or hidden configurations to appear legitimate.
+
+This project addresses the need for a focused scheduled task analysis tool that can scan Windows scheduled tasks, identify suspicious characteristics, assign risk levels, and explain the reasoning behind each classification. By presenting scheduled task behaviour through a clear dashboard, the system aims to make persistence-based threats easier to detect, understand, and investigate.
